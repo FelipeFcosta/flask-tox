@@ -1,6 +1,6 @@
 # flask-tox
 
-Use virtualenv python:
+Use virtualenv:
 
 ```bash
 pip install -r requirements.txt
@@ -22,15 +22,15 @@ python3 manage.py runserver -l <host> -p <port>
 ```
 Default values
 1. Host default - ```0.0.0.0```
-2. Posrt default - ```8000```
+2. Port default - ```8000```
 
-You can run with TOX use:
+You can run with TOX using:
 
 ```bash
 tox
 ```
 
-For view couvered after run TOX your tests use:
+For view couvered after run TOX using:
 ```bash
 <your_browser> htmlcov/index.html
 ```
